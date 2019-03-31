@@ -1,0 +1,22 @@
+.colleagues {
+    padding: 1rem 3px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px dotted #417378;
+}
+.colleague__photo img {
+    width: 100px;
+    margin-right: 1rem;
+    border: 5px solid white;
+    border-radius: 100%;
+}
+
+.colleague-person-name {
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
+.colleague-person-status {
+    text-transform: lowercase;
+    font-style: italic;
+}

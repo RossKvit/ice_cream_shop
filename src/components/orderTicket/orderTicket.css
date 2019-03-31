@@ -1,0 +1,41 @@
+.box__content_orders {
+    grid-template-columns: repeat(4, 1fr);
+
+}
+.order {
+    padding: 1rem;
+    background: #fff;
+}
+.order-status {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .6rem;
+}
+.order-status__title {
+    font-weight: bold;
+}
+.order-status__select {
+    text-transform: uppercase;
+}
+.order-count{
+    font-weight: bold;
+}
+.order-item {
+    padding-top: 1rem;
+}
+.order-flavor__item {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid white;
+    padding: .6rem;
+}
+.order-flavor__item:last-of-type {
+    padding-bottom: 0;
+}
+.order_fullfilled {
+    background: lightblue;
+}
+.order_paid {
+    background: lightpink;
+}

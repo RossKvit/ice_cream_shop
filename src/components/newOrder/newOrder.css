@@ -1,0 +1,51 @@
+.scoop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .6rem 0;
+    border-bottom: 1px dotted #417378;
+}
+.scoop:last-of-type {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+.label-form_scoops {
+    padding: 1rem 0;
+    border-bottom: 1px dotted #417378;
+    text-align:center;
+}
+.scoop__title {
+    font-weight: bold;
+}
+.scoop-buttons {
+    display: flex;
+    align-items: center;
+    border: 1px solid #417378;
+}
+.scoop-buttons__item{
+    padding: 6px 12px;
+    background: #417378;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1;
+    cursor: pointer;
+}
+.scoop-buttons__count {
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+
+.order-button {
+    padding: .6rem 0;
+    margin-top: 1rem;
+    text-align: center;
+    width: 100%;
+    background: #417378;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}

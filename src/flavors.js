@@ -1,0 +1,6 @@
+export default {
+    CHOCOLATE: 'CHOCOLATE',
+    VANILLA: 'VANILLA',
+    MOCHA: 'MOCHA',
+    STRAWBERRY: 'STRAWBERRY',
+}

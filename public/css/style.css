@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #3E423A;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container_main {
+    flex: 1;
+}
+.header-top {
+    background: #F4F7D9;
+    padding: 1rem 0;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo__img {
+    margin: 0 1.5rem;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+/*  =============== wrap-box*/
+.wrap-box {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1rem 0;
+}
+.box {
+    grid-column: span 2;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background: #F4F7D9;
+
+}
+.box_orders {
+    grid-column: span 3;
+}
+.box_colleagues {
+    grid-column: span 1;
+}
+
+.box__head{
+    background: #417378;
+    font-size: 1.4rem;
+    padding: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.box__content {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: .6rem 3px;
+}
+
+/* ============== new order form*/
+input[type='text'],
+textarea {
+    border: 1px solid #417378;
+    background: #A4CFBE;
+    padding: .6rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+input:active,
+input:focus,
+textarea:active,
+textarea:focus,
+button {
+    outline: none;
+}
+button {
+    border: 1px solid transparent;
+    background: transparent;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background .4s ease-out;
+}
+button:hover {
+    background: #eee;
+    color:  #417378;
+    border: 1px solid #417378;
+}
+
+.form {
+    padding: 1rem;
+}
+.row {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: 1fr 1fr;
+}
+.label-form {
+    display: block;
+    font-weight:bold;
+    text-transform: uppercase;
+    margin-bottom: .6rem;
+}
+.form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+.form-check-input {
+    margin-right: 5px;
+}
+/* ============== new order scoops*/
+
+
+/* colleagues */
+
+
+
+.footer {
+    padding: 1rem;
+    background: #F4F7D9;
+}
